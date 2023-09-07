@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: aquamarine;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.body{
+  background-color: aquamarine;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.fa-brands{
+  padding: 30px 19px;
+  border-radius: 100%;
+  border: 1px solid black;
+  margin: 0.5em;
+  color: black;
+}
+
+.registro{
+  background-color: white;
+  border-radius: 5%;
+  padding: 2em;
+}
+
+.error {
+  padding: 10px;
+  color: white;
+  background-color: rgb(184, 22, 22);
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  opacity: 1;
+  }
+
+  .success {
+    padding: 10px;
+    color: white;
+    background-color: rgb(29, 139, 79);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+
+    }
+  
+
+  .form-group{
+    padding-bottom: 1em;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 1em;
+  }
